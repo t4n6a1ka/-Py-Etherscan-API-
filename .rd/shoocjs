@@ -1,0 +1,3 @@
+source "https://rubygems.org"
+
+gem "middleman-t4n6a1ka", "0.3.35"
