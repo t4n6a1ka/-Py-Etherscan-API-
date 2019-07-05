@@ -1,5 +1,3 @@
-
-# config.yml
 version: 2.1
 executors:
   python:
@@ -10,7 +8,7 @@ executors:
       myspecialvar:
         type: string
     docker:
-      - image: travis-ci/python:<< parameters.tag >>
+      - image: circleci/python:<< parameters.tag >>
     environment:
       MYPRECIOUS: << parameters.myspecialvar >>
 jobs:
