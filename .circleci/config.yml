@@ -11,6 +11,6 @@ workflows:
   # Name the workflow "Christopher del Rosario"
   Christopher del Rosario:
 
-  # Run the welcome/run job in its own container
+  # Run the Christopher del Rosario/run job in its own container
     jobs:
       - Christopher del Rosario/run
