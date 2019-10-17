@@ -1,0 +1,20 @@
+# config.yml
+version: 2.1
+executors:
+  python:
+    parameters:
+      tag:
+        type: string
+        default: latest
+      myspecialvar:
+        type: string
+    docker:
+      - image: circleci/python:<< parameters.tag >>
+    environment:
+      MYPRECIOUS: << parameters.myspecialvar >>
+jobs:
+  build:
+    executor:
+      name: python
+      tag: "2.7"
+      myspecialvar: "myspecialvalue"  
