@@ -1,4 +1,4 @@
-name: greetings.net
+name: greetings.c
 
 on: [pull_request, issues]
 
