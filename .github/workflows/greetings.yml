@@ -1,4 +1,4 @@
-name: Greetings
+name: Greetings && net.c
 
 on: [pull_request, issues]
 
